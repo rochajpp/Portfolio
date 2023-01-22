@@ -31,27 +31,53 @@ header{
     display: flex;
     gap: 3rem;
 }
-.english{
+
+.language button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    /* background-color: rgba(255, 255, 255, 0.281); */
+}
+.menuLanguage{
+    display: none;
+}
+.active .menuLanguage{
+    width: 7rem;
+    height: 10rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    top: 4rem;
+    right: 2rem;
+    
+}
+.menuLanguage p{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.menuLanguage p:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+#chevron-up-circle-outline{
     display: none;
 }
 
-.language{
-   
-    cursor: pointer;
-}
-.language img{
-    /* position: absolute; */
-    height: 2.5rem;
-    width: 4rem;
-    border-radius: 0.5rem;
-    
-}
-.active .portuguese{
+.active #chevron-up-circle-outline2{
     display: none;
 }
-.active .english{
+.active #chevron-up-circle-outline{
     display: block;
 }
+
 
 @media screen and (max-width: 892px){
     .mainMenu{
