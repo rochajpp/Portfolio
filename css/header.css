@@ -57,6 +57,7 @@ header{
     right: 2rem;
     
 }
+
 .menuLanguage p{
     display: flex;
     align-items: center;
@@ -89,6 +90,21 @@ header{
     .menuResp ion-icon{
         display: block;
     }
-
+   
     
+}
+
+@media screen and (max-width: 1226px){
+    #home video{
+        height: 100vh;
+        width: auto;
+    }
+    
+}
+
+/*Fiz esse media para que quando a página for aberta em compuatdor ela fique em tamnho fixo mas sem definir isso diretamente na classe*/
+@media screen and (min-width: 1226px){
+    #home video{
+        width: 100vw;
+    }
 }

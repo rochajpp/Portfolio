@@ -1,17 +1,19 @@
 #home{
-    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
-}
-#home video{
-    width: 100vw;
-    /* filter: blur(3px); */
-    z-index: 0;
-   
 }
 .contentHome{
     position: absolute;
-    width: 5rem;
-    height: 5rem;
-    background-color: red;
+    display: flex;
+    align-items: center;
     
+}
+.contentHome h1{
+    font-size: 3rem;
+}
+.contentHome h2{
+    font-size: 2rem;
 }
