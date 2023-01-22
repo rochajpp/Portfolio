@@ -5,11 +5,13 @@
     justify-content: center;
     overflow: hidden;
 }
+#home video{
+    filter:brightness(50%);
+}
 .contentHome{
     position: absolute;
     display: flex;
     align-items: center;
-    
 }
 .contentHome h1{
     font-size: 3rem;
