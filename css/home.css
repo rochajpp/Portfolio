@@ -1,0 +1,17 @@
+#home{
+    
+    overflow: hidden;
+}
+#home video{
+    width: 100vw;
+    /* filter: blur(3px); */
+    z-index: 0;
+   
+}
+.contentHome{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+    
+}

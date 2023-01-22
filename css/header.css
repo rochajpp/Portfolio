@@ -1,0 +1,68 @@
+header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    transition: 0.5s;
+    z-index: 10;
+}
+.contentHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+.activeHeader{
+    border-bottom: 1px solid white;
+    background-color: var(--backgroundColor);
+}
+.logo h1{
+    cursor: pointer;
+}
+.menuResp ion-icon{
+    display: none;
+}
+.mainMenu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.mainMenu{
+    display: flex;
+    gap: 3rem;
+}
+.english{
+    display: none;
+}
+
+.language{
+   
+    cursor: pointer;
+}
+.language img{
+    /* position: absolute; */
+    height: 2.5rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    
+}
+.active .portuguese{
+    display: none;
+}
+.active .english{
+    display: block;
+}
+
+@media screen and (max-width: 892px){
+    .mainMenu{
+        display: none;
+    }
+    .language{
+        display: none;
+    }
+    .menuResp ion-icon{
+        display: block;
+    }
+
+    
+}

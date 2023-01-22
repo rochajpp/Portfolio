@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --backgroundColor: #15202B;
+}
+
+body, html{
+    scroll-behavior: smooth;
+    font-family: 'Seculor One', sans-serif;
+
+}
+
+.contentMain{
+    background-color: var(--backgroundColor);
+    color: white;
+}
+section{
+    height: 100vh;
+    border-top: 1px solid black;
+}
+
