@@ -19,6 +19,12 @@ header{
 .logo h1{
     cursor: pointer;
 }
+.logo h1::before{
+    content: "<";
+}
+.logo h1::after{
+    content: ">"
+}
 .menuResp ion-icon{
     display: none;
 }
