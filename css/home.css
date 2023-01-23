@@ -12,6 +12,7 @@
     position: absolute;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .contentHome h1{
     font-size: 3rem;
@@ -19,10 +20,23 @@
 .contentHome h2{
     font-size: 2rem;
 }
-.partApresent{
+.apresentation{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 5rem;
+    line-height: 4rem;
+}
+#writer::after{
+    content: "|";
+    animation: writerAnimation 0.5s infinite;
+}
+
+@keyframes writerAnimation{
+    0%, 100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 100;
+    }
 }
