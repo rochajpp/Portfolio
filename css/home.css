@@ -31,6 +31,44 @@
     content: "|";
     animation: writerAnimation 0.5s infinite;
 }
+.buttonsHome{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 0.4rem 4rem;
+    border-radius: 4rem;
+    background-color: rgba(255, 255, 255, 0.178);
+    display: flex;
+    align-items: center;
+    
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+#white{
+    display: none;
+}
+.githubButton:hover #white, .linkedinButton:hover #white{
+    display: block;
+}
+.githubButton:hover  #black, .linkedinButton:hover  #black{
+    display: none;
+}
+.linkedinButton:hover{
+    background-color: rgb(9, 110, 241);
+}
+.githubButton:hover{
+    background-color: rgb(49, 49, 49);
+    
+}
+
+
+
 
 @keyframes writerAnimation{
     0%, 100%{

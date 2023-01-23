@@ -90,6 +90,10 @@ header{
     .menuResp ion-icon{
         display: block;
     }
+    .buttonsHome{
+        flex-direction: column;
+    
+    }
    
     
 }
