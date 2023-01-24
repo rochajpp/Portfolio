@@ -110,6 +110,9 @@ header{
     .apresentation{
         text-align: center;
     }
+    .part2{
+        margin-top: 2rem;
+    }
     
 }
 /*Media feita para dimensão entre a de celular e a de computador*/
@@ -133,9 +136,14 @@ header{
     }
     #about{
         text-align: center; 
-        padding: 8rem;
+        padding: 2rem;
+        
     }
     .infoAbout{
         justify-content: center;
+        gap: 5rem;
+    }
+    .part2{
+        margin-top: 8rem;
     }
 }

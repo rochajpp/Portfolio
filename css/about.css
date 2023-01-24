@@ -6,9 +6,80 @@
 .infoAbout{
     display: flex;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .part1 p{
     line-height: 2rem;
     font-size: 1.2rem;
+}
+.part1{
+    margin-top: 1rem;
+}
+.part2{
+    display: flex;
+    gap: 1rem;
+    
+}
+.linguagens{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+.part2 i{
+    font-size: 2.5rem;
+}
+.linguagem{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.lingBar{
+    border-color: white;
+    height: 1.5rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+}
+.nivel{   
+    margin-left: 0.1rem;
+    height: 1rem;
+    background-color: rgb(150, 150, 150);
+}
+.htmlNivel{
+    width: 7rem;
+    animation: upBar 1s linear;
+}
+.cssNivel{
+    width: 7rem;
+    animation: upBar 1s;
+}
+.jsNivel{
+    width: 7rem;
+    animation: upBar 1s;
+}
+.javaNivel{
+    width: 6.5rem;
+    animation: upBar 1s;
+}
+.cNivel{
+    width: 6.5rem;
+    animation: upBar 1s;
+}
+.cppNivel{
+    width: 6.5rem;
+    animation: upBar 1s;
+}
+.springNivel{
+    width: 6rem;
+    animation: upBar 1s;
+}
+.pythonNivel{
+    width: 5rem;
+    animation: upBar 1s;
+}
+
+@keyframes upBar{
+    0%{
+        width: 0rem;
+    }
 }
