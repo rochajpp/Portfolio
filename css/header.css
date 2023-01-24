@@ -98,7 +98,7 @@ header{
     align-items: center;
     gap: 5rem;
     top: -100rem;;
-    height: 100vh;
+    height: 100%;
     z-index: 100;
     transition: 0.5s;
 }
