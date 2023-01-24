@@ -1,0 +1,14 @@
+
+.titleAbout{
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+}
+.infoAbout{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.part1 p{
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
