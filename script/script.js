@@ -6,7 +6,12 @@ function activeHeaderScroll(){
 
 window.addEventListener('scroll', activeHeaderScroll);
 
-
+document.querySelector('.menuButton').onclick = function(){
+    document.querySelector('.contentMain').classList.toggle('menuRespActive');
+}
+document.querySelector('.close').onclick = function(){
+    document.querySelector('.contentMain').classList.toggle('menuRespActive');
+}
 document.querySelector('.language').onclick = function(){
     document.querySelector('body').classList.toggle('active');
 }
