@@ -141,7 +141,12 @@ header{
     .projects{
         flex-direction: column;
     }
-    
+    .moreProjectsButton{
+        display: none;
+    }
+    .contentProjects{
+        gap: 2rem;
+    }
 }
 /*Media feita para dimensão entre a de celular e a de computador*/
 @media screen and (min-width: 893px) and (max-width: 1226px){
@@ -175,6 +180,6 @@ header{
         margin-top: 8rem;
     }
     .projects{
-        padding: 5rem;
+        padding: 6rem;
     }
 }
