@@ -135,6 +135,7 @@ header{
     .apresentation{
         text-align: center;
     }
+  
     .part2{
         margin-top: 2rem;
     }
@@ -146,6 +147,9 @@ header{
     }
     .contentProjects{
         gap: 2rem;
+    }
+    .emailNumber{
+        gap: 3rem;
     }
 }
 /*Media feita para dimensão entre a de celular e a de computador*/
@@ -181,5 +185,8 @@ header{
     }
     .projects{
         padding: 6rem;
+    }
+    .emailNumber{
+        gap: 10rem;
     }
 }

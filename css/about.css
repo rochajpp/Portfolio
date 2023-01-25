@@ -9,7 +9,7 @@
 }
 .emailNumber{
     display: flex;
-    justify-content: space-between;
+    
 }
 .emailNumber a{
    color: white;
@@ -29,6 +29,10 @@
 }
 .part1{
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 .part2{
     display: flex;
@@ -94,7 +98,7 @@
 }
 .cDownload {
     font-size: 1rem;
-    padding: 1rem 1rem;
+    padding: 1rem 10rem;
     display: flex;
     color: white;
     justify-content: center;
