@@ -1,0 +1,83 @@
+/*Media feita para responsividade de celulares*/
+@media screen and (max-width: 892px){
+    #home video{
+        height: 100rem;
+    }
+    .mainMenu{
+        display: none;
+    }
+    .language{
+        display: none;
+    }
+    .menuResp ion-icon{
+        display: block;
+    }
+    .buttonsHome{
+        flex-direction: column;
+    
+    }
+    .infoAbout{
+        flex-direction: column;
+    }
+    #about{
+        padding: 5rem;
+        height: 200vh;
+    }
+    .apresentation{
+        text-align: center;
+    }
+  
+    .part2{
+        margin-top: 2rem;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .moreProjectsButton{
+        display: none;
+    }
+    .contentProjects{
+        gap: 2rem;
+    }
+    .emailNumber{
+        gap: 3rem;
+    }
+}
+/*Media feita para dimensão entre a de celular e a de computador*/
+@media screen and (min-width: 893px) and (max-width: 1226px){
+    #home video{
+        height: 100vh;
+        width: auto;
+    }
+    .infoAbout{
+        margin-left: 4rem;
+    }
+    .titleAbout{
+        text-align: center;
+    }
+}
+
+/*Fiz esse media para que quando a página for aberta em compuatdor ela fique em tamnho fixo mas sem definir isso diretamente na classe*/
+@media screen and (min-width: 1226px){
+    #home video{
+        width: 100vw;
+    }
+    #about, #projects{
+        text-align: center; 
+        padding: 2rem;
+        
+    }
+    .infoAbout{
+        justify-content: center;
+        gap: 5rem;
+    }
+    .part2{
+        margin-top: 8rem;
+    }
+    .projects{
+        padding: 6rem;
+    }
+    .emailNumber{
+        gap: 10rem;
+    }
+}
