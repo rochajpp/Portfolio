@@ -49,11 +49,25 @@
         height: 100vh;
         width: auto;
     }
+    #about{
+        height: 120vh;
+    }
     .infoAbout{
         margin-left: 4rem;
+        flex-direction: column;
+        gap: 3rem;
     }
     .titleAbout{
         text-align: center;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .moreProjectsButton{
+        display: none;
+    }
+    .contentProjects{
+        gap: 2rem;
     }
 }
 
