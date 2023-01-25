@@ -1,0 +1,24 @@
+.titleProjects{
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+}
+.contentProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.moreProjects{
+    position: absolute;
+    left: -70rem;
+}
+.project{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 2rem;
+  
+}

@@ -1,4 +1,8 @@
-
+.contentAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .titleAbout{
     font-size: 2rem;
     border-bottom: 1px solid white;

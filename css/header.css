@@ -138,6 +138,9 @@ header{
     .part2{
         margin-top: 2rem;
     }
+    .projects{
+        flex-direction: column;
+    }
     
 }
 /*Media feita para dimensão entre a de celular e a de computador*/
@@ -159,7 +162,7 @@ header{
     #home video{
         width: 100vw;
     }
-    #about{
+    #about, #projects{
         text-align: center; 
         padding: 2rem;
         
@@ -170,5 +173,8 @@ header{
     }
     .part2{
         margin-top: 8rem;
+    }
+    .projects{
+        padding: 5rem;
     }
 }
