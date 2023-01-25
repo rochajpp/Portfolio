@@ -7,6 +7,17 @@
     font-size: 2rem;
     border-bottom: 1px solid white;
 }
+.emailNumber{
+    display: flex;
+    justify-content: space-between;
+}
+.emailNumber a{
+   color: white;
+   transition: 0.5s;
+}
+.emailNumber a:hover{
+    color: rgba(255, 255, 255, 0.349);
+ }
 .infoAbout{
     display: flex;
     align-items: center;
@@ -81,7 +92,24 @@
     width: 5rem;
     animation: upBar 1s;
 }
-
+.cDownload {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+.cDownload:hover{
+    background-color: rgba(255, 255, 255, 0.637)
+} 
 @keyframes upBar{
     0%{
         width: 0rem;
