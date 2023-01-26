@@ -45,6 +45,12 @@
     .contentProjects{
         gap: 2rem;
     }
+    #projects{
+        padding: 4rem;
+    }
+    .titleProjects{
+        width: 20rem;
+    }
 }
 
 /*Fiz esse media para que quando a página for aberta em compuatdor ela fique em tamnho fixo mas sem definir isso diretamente na classe*/
