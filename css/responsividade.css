@@ -67,7 +67,6 @@
 @media screen and (min-width: 893px) and (max-width: 1226px){
     #home video{
         height: 100vh;
-        width: auto;
     }
     #about{
         height: 120vh;
@@ -82,7 +81,11 @@
         gap: 2rem;
     }
     .titleAbout{
+        width: 32rem;
+    }
+    .titleProjects{
         width: 30rem;
+        justify-content: center;
     }
   
 }
