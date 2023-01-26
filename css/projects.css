@@ -9,6 +9,15 @@
     padding: 0rem 2rem;
     width: 50rem;
 }
+.buttonRep{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+.buttonRep:hover{
+    letter-spacing: 0.2rem;
+}
 .botoesProjects{
     display: flex;
     flex-direction: column;
