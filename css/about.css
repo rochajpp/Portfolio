@@ -1,29 +1,91 @@
+#about{
+    padding: 5rem 8rem;
+}
 .contentAbout{
-    display: flex;
-    flex-direction: column;
+    display: flex;   
     align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
 }
 .titleAbout{
     font-size: 2rem;
-    border-bottom: 1px solid white;
+    background-color:  rgba(255, 255, 255, 0.178);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0rem 2rem;
+    width: 50rem;
+}
+.descricaoAbout{
+    margin-top: 2rem;
+}
+.aboutMe{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+.cDownload {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 5rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    border-radius: 2rem;
+    
+}
+.cDownload:hover{
+    background-color: rgba(255, 255, 255, 0.637)
+} 
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.email ion-icon, .number ion-icon{
+    font-size: 1.5rem;
 }
 .emailNumber{
     display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
     
 }
 .emailNumber a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
    color: white;
    transition: 0.5s;
 }
 .emailNumber a:hover{
     color: rgba(255, 255, 255, 0.349);
  }
-.infoAbout{
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-}
-.part1 p{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .part1 p{
     line-height: 2rem;
     font-size: 1.2rem;
 }
@@ -95,25 +157,8 @@
 .pythonNivel{
     width: 5rem;
     animation: upBar 1s;
-}
-.cDownload {
-    font-size: 1rem;
-    padding: 1rem 5rem;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    background-color: rgba(255, 255, 255, 0.178);
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
-    text-decoration: none;
-    border-radius: 2rem;
-}
-.cDownload:hover{
-    background-color: rgba(255, 255, 255, 0.637)
-} 
+} */
+
 @keyframes upBar{
     0%{
         width: 0rem;
