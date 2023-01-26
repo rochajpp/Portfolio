@@ -50,6 +50,7 @@
     }
     .titleProjects{
         width: 20rem;
+        justify-content: center;;
     }
 }
 
@@ -58,14 +59,8 @@
     #home video{
         width: 100vw;
     }
-    #projects{
-        text-align: center; 
-        padding: 2rem;
-        
-    }
-    .projects{
-        padding: 6rem;
-    }
+  
+    
   
 }
 /*Media feita para dimensão entre a de celular e a de computador*/
