@@ -61,10 +61,11 @@
 }
 .linkedinButton:hover{
     background-color: rgb(9, 110, 241);
+    letter-spacing: 0.2rem;
 }
 .githubButton:hover{
     background-color: rgb(49, 49, 49);
-    
+    letter-spacing: 0.2rem;
 }
 
 
