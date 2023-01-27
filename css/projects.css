@@ -128,10 +128,14 @@
     border-radius: 0.2em;
     padding: 0.3rem 1rem; 
     text-align: center;
+    font-size: 1rem;
 }
 .html{
     background-color: rgb(241, 143, 51);
 }
 .css{
     background-color: rgb(62, 184, 255);
+}
+.js{
+    background-color: rgb(250, 250, 62);
 }
