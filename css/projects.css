@@ -9,6 +9,7 @@
     padding: 0rem 2rem;
     width: 50rem;
 }
+
 .buttonRep{
     color: white;
     text-decoration: none;
@@ -29,14 +30,48 @@
     align-items: center;
     
 }
+.moreProjectsButton{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.moreProjectsButton ion-icon{
+    font-size: 1.5rem;
+}
+.buttonProject{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+.buttonProject a ion-icon{
+    font-size: 1.5rem;
+}
+.buttonProject a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.buttonProject a:hover{
+    background-color: rgba(255, 255, 255, 0.26);
+}
 .contentProjects button{
     cursor: pointer;
-    padding: 1rem 5rem;
+    padding: 1rem;
     border-radius: 2rem;
     font-size: 1.2rem;
     color: white;
     background-color: rgba(255, 255, 255, 0.178);
     transition: 0.5s;
+    border: none; 
 }
 .contentProjects button:hover{
     background-color: rgba(255, 255, 255, 0.582);
@@ -45,64 +80,52 @@
     display: flex;
     gap: 2rem;
     align-items: center;
-
-}
-.moreProjects{
-    display: none;
-}
-.lessProjectsButton{
-    display: none;
-}
-.activeProjects .moreProjects{
-    display: flex;
-
-}
-.activeProjects .lessProjectsButton{
-    display: block;
-}
-.activeProjects .moreProjectsButton{
-    display: none;
 }
 .project{
-    height: 25rem;
-    width: 20rem;
-    border-radius: 2rem;
+    border: none;
+    width: 25rem;
     transition: 0.5s;
-}
-.projects a{
-    text-decoration: none;
-    color: black;
-}
-.project:hover{
-    height: 28rem;
-    width: 22rem;
-}
-.project:hover .descricao{
-    display: none;
-   
-}
-.descricao{
-    background-color: rgba(207, 207, 207, 0.836);
-    margin-top: 9.5rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.imageProject{
+    width: 25rem;   
+    height: 12rem;
+}
+
+.imageProject:hover{
+    zoom: 2rem;
+}
+.projects a{
+    text-decoration: none;
+}
+.project:hover{
+    box-shadow: 1rem 1rem 2rem black;
+    margin-top: -1rem;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
     gap: 1rem;
     padding: 1rem;
     transition: 0.5s;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 .tecnologias{
     display: flex;
     gap: 2rem;
-   
+    padding: 0.5rem;
 }
 .tecnologias h2{
     border: none;
     color: black;
-    border-radius: 2rem;
-    width: 5rem;
+    border-radius: 0.2em;
+    padding: 0.3rem 1rem; 
     text-align: center;
 }
 .html{

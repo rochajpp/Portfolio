@@ -43,10 +43,10 @@
         display: none;
     }
     .contentProjects{
-        gap: 2rem;
+        gap: 4rem;
     }
     #projects{
-        padding: 4rem;
+        padding: 3rem;
     }
     .titleProjects{
         width: 20rem;
@@ -58,13 +58,12 @@
     #home video{
         width: 100vw;
     }
-    #projects{
-        text-align: center; 
+    #projects{       
         padding: 2rem;
         
     }
     .projects{
-        padding: 6rem;
+        padding: 4rem;
     }
   
 }
