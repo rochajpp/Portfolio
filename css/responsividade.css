@@ -69,6 +69,14 @@
     .titleProjects{
         width: 20rem;
     }
+    .tecnologias{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .buttonProject{
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
 
 /*Fiz esse media para que quando a página for aberta em compuatdor ela fique em tamnho fixo mas sem definir isso diretamente na classe*/
