@@ -1,3 +1,12 @@
+@media screen and (max-width: 321px){
+    .infos img{
+        width: 15rem;
+    }
+    .titleAbout{
+        width: 1rem;
+    }
+}
+
 /*Media feita para responsividade de celulares*/
 @media screen and (max-width: 892px){
     #home video{
@@ -39,6 +48,15 @@
     .projects{
         flex-direction: column;
     }
+    .project{
+        width: 15rem;
+    }
+    .imageProject{
+        width: 15rem;
+    }
+    .descricao{
+        width: 15rem;
+    }
     .moreProjectsButton{
         display: none;
     }
@@ -65,10 +83,11 @@
     .projects{
         padding: 4rem;
     }
+
   
 }
 /*Media feita para dimensão entre a de celular e a de computador*/
-@media screen and (min-width: 893px) and (max-width: 1226px){
+@media screen and (min-width: 893px) and (max-width: 1391px){
     #home video{
         height: 100vh;
         width: auto;

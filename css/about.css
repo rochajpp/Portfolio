@@ -18,6 +18,10 @@
     padding: 0rem 2rem;
     width: 50rem;
 }
+.infos img{
+    width: 20rem; 
+    border-radius: 1rem;
+}
 .descricaoAbout{
     margin-top: 2rem;
 }
