@@ -28,8 +28,7 @@
 .contentProjects{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
 }
 .moreProjectsButton{
     display: flex;
@@ -80,24 +79,21 @@
 .projects{
     display: flex;
     gap: 2rem;
-    align-items: center;
 }
 .project{
     border: none;
-    width: 25rem;
+    width: 24rem;
     transition: 0.5s;
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 .imageProject{
-    width: 25rem;   
+    width: 24rem;   
     height: 12rem;
 }
 
-.imageProject:hover{
-    zoom: 2rem;
-}
 .projects a{
     text-decoration: none;
 }
@@ -128,7 +124,8 @@
     border-radius: 0.2em;
     padding: 0.3rem 1rem; 
     text-align: center;
-    font-size: 1rem;
+    font-weight: bold;
+    font-size: 0.8rem;
 }
 .html{
     background-color: rgb(241, 143, 51);
