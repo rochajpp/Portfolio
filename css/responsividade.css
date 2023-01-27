@@ -87,7 +87,7 @@
   
 }
 /*Media feita para dimensão entre a de celular e a de computador*/
-@media screen and (min-width: 893px) and (max-width: 1391px){
+@media screen and (min-width: 893px) and (max-width: 1226px){
     #home video{
         height: 100vh;
         width: auto;
