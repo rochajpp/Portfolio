@@ -1,14 +1,62 @@
-@media screen and (max-width: 321px){
+@media (min-width: 0px) and (max-width: 321px){
     .infos img{
         width: 15rem;
     }
     .titleAbout{
         width: 1rem;
     }
+    #home{
+        height: 180vh;
+    }
+    .menu2{
+        gap: 2rem;
+    }
+    
 }
-
+/*Media para quando o celular estiver deitado*/
+@media(max-height: 390px){
+    #home{
+        height: 180vh;
+    }
+    .menu2{
+        gap: 1rem;
+    }
+    .mainMenu, .language{
+        display: none;
+    }
+    .menuResp ion-icon{
+        display: block;
+    }
+    .contentAbout{
+        flex-direction: column;
+    }
+    .titleAbout{
+        width: 30rem;
+    }
+    .titleProjects{
+        width: 30rem;
+    }
+    #projects{
+        padding: 4rem;
+    }
+    .contentProjects{
+        gap: 2rem;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .moreProjectsButton{
+        display: none;
+    }
+    #name, #email{
+        width: 20rem;
+    }
+    form{
+        align-items: center;
+    }
+}
 /*Media feita para responsividade de celulares*/
-@media screen and (max-width: 892px){
+@media screen and (max-width: 892px) and (min-height: 400px){
     #home video{
         height: 100rem;
     }
@@ -76,6 +124,12 @@
     .buttonProject{
         flex-direction: column;
         gap: 1rem;
+    }
+    form{
+
+    }
+    #name, #email{
+        width: 20rem;
     }
 }
 

@@ -10,21 +10,21 @@
     gap: 2rem;
 }
 #name, #email{
-    color: white;
+    color: black;
     height: 3rem;
     width: 46.9rem;
     text-align: center;
     font-size: 1.2rem;
-    background-color: rgba(255, 255, 255, 0.178);
+    background-color: rgb(194, 194, 194);
     border: none;
     border-radius: 2rem;
 }
 #textMessage{
-    color: white;
+    color: black;
     font-size: 1.3rem;
     height: 30rem;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.178);
+    background-color: rgb(194, 194, 194);
     border: none;
     border-radius: 2rem;
     resize: none;
