@@ -1,0 +1,40 @@
+#contact{
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contentContact form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#name, #email{
+    color: white;
+    height: 3rem;
+    width: 46.9rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: none;
+    border-radius: 2rem;
+}
+#textMessage{
+    color: white;
+    font-size: 1.3rem;
+    height: 30rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: none;
+    border-radius: 2rem;
+    resize: none;
+}
+#textMessage::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: var(--backgroundColor);
+    
+}
+#textMessage::-webkit-scrollbar-thumb{
+    border-radius: 5rem;
+    background-color: rgba(255, 255, 255, 0.589); 
+}
