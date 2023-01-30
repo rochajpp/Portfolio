@@ -125,7 +125,13 @@
         flex-direction: column;
         gap: 1rem;
     }
+    .infoMessage{
+        flex-direction: column;
+    }
     #name, #email{
+        width: 20rem;
+    }
+    .titleContact{
         width: 20rem;
     }
 }

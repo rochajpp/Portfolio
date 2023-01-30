@@ -1,8 +1,21 @@
 #contact{
-    padding: 10rem;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.contentContact{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 3rem;
+}
+.titleContact{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.178);
+    font-size: 2rem;
+    border-radius: 1rem;
+    width: 41rem;
 }
 .contentContact form{
     display: flex;
@@ -12,22 +25,32 @@
 #name, #email{
     color: black;
     height: 3rem;
-    width: 46.9rem;
+    width: 20rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     background-color: rgb(194, 194, 194);
     border: none;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
+}
+.infoMessage{
+    display: flex;
+    gap: 1rem;
 }
 #textMessage{
     color: black;
-    font-size: 1.3rem;
-    height: 30rem;
-    text-align: center;
+    font-size: 1rem;
+    height: 15rem;
+ 
     background-color: rgb(194, 194, 194);
     border: none;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     resize: none;
+    padding: 1rem;
+}
+#textMessage::placeholder{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
 }
 #textMessage::-webkit-scrollbar{
     width: 0.5rem;
@@ -37,4 +60,27 @@
 #textMessage::-webkit-scrollbar-thumb{
     border-radius: 5rem;
     background-color: rgba(255, 255, 255, 0.589); 
+}
+
+.buttonForm{
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.178);
+    color: white;
+    transition: 0.5s;
+    font-size: 1.4rem;
+}
+.buttonForm:hover{
+    animation: animationButton 1s infinite;
+    cursor: pointer;
+}
+
+@keyframes animationButton{
+    0%, 100%{
+        background-color: rgba(255, 255, 255, 0.178);
+    }
+    50%{
+        background-color: rgba(255, 255, 255, 0.753);
+    }
 }
