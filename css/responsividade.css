@@ -48,12 +48,6 @@
     .moreProjectsButton{
         display: none;
     }
-    #name, #email{
-        width: 20rem;
-    }
-    form{
-        align-items: center;
-    }
 }
 /*Media feita para responsividade de celulares*/
 @media screen and (max-width: 892px) and (min-height: 400px){
