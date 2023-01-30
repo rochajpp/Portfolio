@@ -125,9 +125,6 @@
         flex-direction: column;
         gap: 1rem;
     }
-    form{
-
-    }
     #name, #email{
         width: 20rem;
     }
