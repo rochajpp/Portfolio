@@ -50,6 +50,7 @@
     position: absolute;
     left: 1rem;
     top: 1rem;
+    font-size: 1.2rem;
 }
 #textMessage::-webkit-scrollbar{
     width: 0.5rem;
