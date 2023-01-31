@@ -4,43 +4,233 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/initialStyle.css">
-    <link rel="stylesheet" type="text/css" href="/css/header.css">
-    
-    <title>Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="../../css/initialStyle.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/home.css">
+    <link rel="stylesheet" type="text/css" href="../../css/about.css">
+    <link rel="stylesheet" type="text/css" href="../../css/projects.css">
+    <link rel="stylesheet" type="text/css" href="../../css/contact.css">
+    <link rel="stylesheet" type="text/css" href="../../css/responsividade.css">
+    <link rel="stylesheet" type="text/css" href="../../css/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="icon" href="../../img/desenvolvimento.png">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portfólio | João Paulo Medeiros Rocha</title>
 </head>
 <body>
     
     <div class="contentMain">
+        <div class="menu2">
+            <a class="homeA" href="#">HOME</a>
+            <a class="aboutA" href="#about">SOBRE</a>
+            <a class="projectsA" href="#projects">PROJETOS</a>
+            <!-- <a class="tecnologiasA" href="#tecnologias">TECNOLOGIAS</a> -->
+            <a class="contactsA" href="#contact">CONTATOS</a>
+            <ion-icon class="close" style="font-size: 3rem;" name="close-outline"></ion-icon>
+        </div>
         <header id="header">
             <div class="contentHeader">
                 <div class="logo">
-                    <h1>
-                    <
-                        J
-                        P
-                    >
-                    </h1>
+                    <h1>J/P</h1>
                 </div>
                 <div class="menu">
-                    <a href="#home">HOME</a>
-                    <a href="#about">SOBRE</a>
-                    <a href="#projects">PROJETOS</a>
-                    <a href="#contacts">CONTATOS</a>
+                    <div class="mainMenu">
+                        <a href="#">HOME</a>
+                        <a href="#about">SOBRE</a>
+                        <a href="#projects">PROJETOS</a>
+                        <!-- <a href="#tecnologias">TECNOLOGIAS</a> -->
+                        <a href="#contact">CONTATOS</a>
+                    </div>
+                    <div class="menuResp">
+                        <a style="text-decoration: none; color: white;" href="#">
+                            <ion-icon class="menuButton" style="font-size: 2.5rem;" name="menu-outline"></ion-icon>
+                        </a>
+                    </div>
                 </div>
+                
                 <div class="language">
-                    <img id="portuguese" class="portuguese" src="/img/images.png">
-                    <img class="english" src="/img/estados-unidos.webp">
+                    <button><img style="width: 2rem;" src="../../img/images.png">Idioma<ion-icon id="chevron-up-circle-outline2" name="chevron-down-circle-outline"></ion-icon> <ion-icon id="chevron-up-circle-outline" name="chevron-up-circle-outline"></ion-icon></button>
+                    <div class="menuLanguage">
+                        <a rel="alternate" hreflang="en" href="https://rochajpp.github.io/newPortfolio/languages/en/index.html"><p>English <img style="width: 1rem;" src="../../img/estados-unidos.webp"></p></a>      
+                        <a><p>Español <img style="width: 1rem;" src="../../img/bandeira-espanha-p.webp"></p></a> 
+                    </div>
                 </div>
             </div>
         </header>
         <section id="home">
-            
+            <video src="../../videos/backgroundVideo.mp4" autoplay loop muted></video>
+            <div class="contentHome">
+                <div class="apresentation">
+                    <h1>Olá,</h1>
+                    <h1>Bem vindo ao meu Portfólio!</h1>
+                    <h2 id="writer">Meu nome é João Paulo!</h2>
+                </div>
+                <div class="buttonsHome">
+                    <a href="https://github.com/rochajpp" target="_blank" class="githubButton button">      
+                        <i id="white" style="font-size: 3rem;" class="devicon-github-original"></i>
+                        <i id="black" style="font-size: 3rem;" class="devicon-github-original colored"></i>
+                        GitHub
+                        
+                    </a>
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-medeiros-rocha-75445820b" target="_blank" class="linkedinButton button">     
+                        <i id="white" style="font-size: 2.5rem;" class="devicon-linkedin-plain"></i>
+                        <i id="black" style="font-size: 2.5rem;" class="devicon-linkedin-plain colored"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
         </section>
-        <section id="about"></section>
-        <section id="projects"></section>
-        <footer id="contacts"></footer>
+        <section id="about">
+            <div class="contentAbout">               
+                    <div class="infos">
+                        <img src="../../img/fotoPerfil.jpg">
+                        <h2>João Paulo Medeiros Rocha</h2>
+                        <h3>19 anos</h3>
+                        <div class="emailNumber">
+                            <a class="email" href="mailto:rochajp000@outlook.com" target="_blank"><ion-icon style="color: rgb(34, 130, 255)" name="mail-outline"></ion-icon>rochajp000@outlook.com</a>
+                            <a class="number" href="https://web.whatsapp.com/send?phone=85998131689" target="_blank"><ion-icon style="color: green" name="logo-whatsapp"></ion-icon>(85)99813-1689</a>
+                        </div>
+                    </div>
+                    <div class="aboutMe">
+                        <div class="titleAbout">
+                            <h3>Sobre mim</h3> 
+                        </div>
+                        <div class="descricaoAbout">
+                            <h1>Fortaleza, Ceará</h1><br>
+                            <p>Meu nome é João Paulo, tenho 19 anos, sou desenvoldor front-end, sou apaixonado por</p>
+                            <p>programação. Atualmente, estou cursando Sistema de informação no quinto semestre, estou </p>
+                            <p>estudando front-end e back-end, tenho o objetivo de me tornar um desenvolvedor FullStack,</p>
+                            <p>tenho conhecimento em HTML, CSS, Java Srcipt, Java, C, C++, Python e Spring boot, </p>
+                            <p>atualmente estou me aprofundando em React.js e Node.js. Sou uma pessoa dedicada e</p>
+                            <p>criativa, e estou sempre ansioso em melhorar e aprender mais em programação.</p>
+                        </div>
+                        <br>
+                        <a class="cDownload" href="downloads/Portfólio_João_Paulo_Medeiros_Rocha-1-_3_.pdf" target="_blank">
+                            Currículo
+                        </a> 
+                    </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="contentProjects">
+                <div class="titleProjects">
+                    <h1>Projetos</h1>
+                </div>
+                <div class="projects">     
+                    <fieldset class="project">
+                        <img class="imageProject" src="../../img/Sem título.png">
+                        <div class="descricao">
+                            <h1>GitHub Clone</h1>                                        
+                            <p>
+                                Primeiro projeto em html e css
+                                feito por mim, o projeto era um teste
+                                de entrevista de estágio que na época
+                                não consegui fazer, mas que alguns meses
+                                depois, consegui fazer, porém iniciante.
+                            </p>
+                            <div class="tecnologias">
+                                <h2 class="html">HTML</h2>
+                                <h2 class="css">CSS</h2>
+                            </div> 
+                        </div>
+                        <div class="buttonProject">
+                            <a href="https://rochajpp.github.io/ProjectGitHub/" target="_blank"><ion-icon name="eye-outline"></ion-icon>Ver projeto</a>
+                            <a href="https://github.com/rochajpp/ProjectGitHub"><ion-icon name="code-slash-outline"></ion-icon>Ver código</a>
+                        </div>      
+                    </fieldset>                 
+                    <fieldset class="project">
+                        <img class="imageProject" src="../../img/Sem título2.png">
+                        <div class="descricao">
+                            <h1>Calculadora</h1>                            
+                                <p>
+                                    Projeto de calculadora simples
+                                    meu primeiro projeto utilizando java script.
+                                    Fiz o sistema da calculadora com um sistema
+                                    continuar alguma conta a partir do resultado
+                                    de uma conta passada.
+                                </p>                        
+                                <div class="tecnologias">
+                                    <h2 class="html">HTML</h2>
+                                    <h2 class="css">CSS</h2>
+                                    <h2 class="js">Java Script</h2>
+                                </div>        
+                        </div>
+                        <div class="buttonProject">                       
+                            <a href="https://rochajpp.github.io/ProjectCalculator/" target="_blank"><ion-icon name="eye-outline"></ion-icon>Ver projeto</a>
+                            <a href="https://github.com/rochajpp/ProjectCalculator"><ion-icon name="code-slash-outline"></ion-icon>Ver código</a>
+                        </div>                           
+                    </fieldset>
+
+                    <fieldset class="project">
+                        <img class="imageProject" src="../../img/Sem título3.png">
+                        <div class="descricao">
+                            <h1>Landing Page</h1>           
+                            <p>
+                                Primeira landing page,
+                                fiz um clone de uma lading
+                                page que encontrei em um repositório
+                                de fotos de páginas web para exercitar.
+                            </p>
+                            <div class="tecnologias">
+                                <h2 class="html">HTML</h2>
+                                <h2 class="css">CSS</h2>
+
+                            </div>
+                        </div>
+                        <div class="buttonProject">
+                            <a href="https://rochajpp.github.io/ProjectLandingPage/" target="_blank"><ion-icon name="eye-outline"></ion-icon>Ver projeto</a>
+                            <a href="https://github.com/rochajpp/ProjectLandingPage"><ion-icon name="code-slash-outline"></ion-icon>Ver código</a>
+                        </div>                               
+                    </fieldset> 
+                </div>
+                <div class="botoesProjects">
+                    <button class="buttonMais moreProjectsButton" disabled><ion-icon name="lock-closed-outline"></ion-icon>Mais (em breve)</button>
+                    <a class="buttonRep" href="https://github.com/rochajpp?tab=repositories" target="_blank">
+                        Repositório GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="tecnologias">
+        </section> -->
+        <section id="contact">
+            <div class="contentContact">
+                <h1 class="titleContact">Contato</h1>
+                <form action="https://formsubmit.co/rochajp000@outlook.com" method="POST">
+                    <div class="infoMessage">
+                        <input name="name" type="text" class="name" id="name" placeholder="Nome" required>
+                        <input name="email" type="email" class="email" id="email" placeholder="E-mail" required>
+                    </div>       
+                    <textarea name="message" class="textMessage" id="textMessage" placeholder="Sua mensagem" rows="10" required></textarea>
+                    <button type="submit" class="buttonForm">Vamos trabalhar juntos!</button>
+                    <button type="button" class="buttonVoice" id="voice"><ion-icon id="mic" name="mic-outline"></ion-icon></button>
+                    
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://rochajpp.github.io/newPortfolio/">      
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="contentFooter">
+                <h1>2023 • Desenvolvido por João Paulo Medeiros Rocha</h1>  
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-medeiros-rocha-75445820b/" target="_blank">
+                        <i id="linkedin" class="devicon-linkedin-plain"></i>
+                    </a>
+                    <a href="https://github.com/rochajpp" target="_blank">                   
+                      <i id="github" class="devicon-github-original"></i>
+                    </a>
+                </div>      
+            </div>
+        </footer>
     </div>
-    <script src="/script/script.js"></script>
+    <script src="../../script/script.js"></script>
+    <script src="../../script/menu.js"></script>
+    <script src="../../script/scrollReveal.js"></script>
+    <script src="../../script/projects.js"></script>
+    <script src="../../script/voice.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
 </body>
 </html>
