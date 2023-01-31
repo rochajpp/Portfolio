@@ -75,7 +75,24 @@
     animation: animationButton 1s infinite;
     cursor: pointer;
 }
-
+.buttonVoice{
+    position: relative;
+    left: 39rem;
+    top: -17rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.buttonVoice:hover{
+    color: red;
+}
 @keyframes animationButton{
     0%, 100%{
         background-color: rgba(255, 255, 255, 0.178);

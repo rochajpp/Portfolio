@@ -1,6 +1,7 @@
 (() => {
-    const startBtn = document.querySelector('#voz');
+    const startBtn = document.querySelector('#voice');
     const output = document.querySelector('#textMessage');
+    let cond = false;
     function start() {
       const recognition = new webkitSpeechRecognition();
       recognition.interimResults = true;
@@ -12,7 +13,7 @@
           if (event.results[i].isFinal) {
             const content = event.results[i][0].transcript.trim();
             output.textContent = content;
-          }
+          }         
         }
       };
     };

@@ -128,6 +128,9 @@
     .titleContact{
         width: 20rem;
     }
+    .buttonVoice{
+        left: 18rem;
+    }
 }
 
 /*Fiz esse media para que quando a página for aberta em compuatdor ela fique em tamnho fixo mas sem definir isso diretamente na classe*/
