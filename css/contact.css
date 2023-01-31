@@ -40,7 +40,6 @@
     color: black;
     font-size: 1rem;
     height: 15rem;
- 
     background-color: rgb(194, 194, 194);
     border: none;
     border-radius: 0.5rem;
@@ -78,7 +77,7 @@
 .buttonVoice{
     position: relative;
     left: 39rem;
-    top: -17rem;
+    top: -23.5rem;
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
