@@ -1,0 +1,51 @@
+.contentFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 4rem;
+    background-color: rgb(29, 29, 29);
+}
+.contentFooter h1{
+    animation: animationNeon 2s infinite;
+}
+.contentFooter h1::before{
+    content: "< ";
+    color: rgb(0, 174, 255);
+    animation: animationNeon 2s infinite;
+}
+.contentFooter h1::after{
+    content: " >";
+    color: rgb(0, 174, 255);
+    animation: animationNeon 2s infinite;
+}
+
+.icons{
+    font-size: 3rem;
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    
+}
+.icons a{
+    text-decoration: none;
+}
+.icons i{
+    transition: 0.5s;
+    
+    color: white;
+}
+#linkedin:hover{
+    color: rgb(0, 132, 255);
+}
+#github:hover{
+    color: black;
+}
+@keyframes animationNeon{
+    0%, 100%{
+        text-shadow: 0 0 0.2rem currentColor;
+    }
+    50%{
+        text-shadow: 0 0 1rem currentColor;
+    }
+}
