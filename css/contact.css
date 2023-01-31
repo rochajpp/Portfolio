@@ -72,8 +72,9 @@
     font-size: 1.4rem;
 }
 .buttonForm:hover{
-    animation: animationButton 1s infinite;
+    background-color: rgba(255, 255, 255, 0.753);
     cursor: pointer;
+    color: black;
 }
 .buttonVoice{
     position: relative;
@@ -92,12 +93,4 @@
 }
 .buttonVoice:hover{
     color: red;
-}
-@keyframes animationButton{
-    0%, 100%{
-        background-color: rgba(255, 255, 255, 0.178);
-    }
-    50%{
-        background-color: rgba(255, 255, 255, 0.753);
-    }
 }
