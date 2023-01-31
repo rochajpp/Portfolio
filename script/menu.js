@@ -13,9 +13,9 @@ document.querySelector('.aboutA').onclick = function(){
 document.querySelector('.projectsA').onclick = function(){
     document.querySelector('.contentMain').classList.toggle('menuRespActive');
 }
-document.querySelector('.tecnologiasA').onclick = function(){
-    document.querySelector('.contentMain').classList.toggle('menuRespActive');
-}
+// document.querySelector('.tecnologiasA').onclick = function(){
+//     document.querySelector('.contentMain').classList.toggle('menuRespActive');
+// }
 document.querySelector('.contactsA').onclick = function(){
     document.querySelector('.contentMain').classList.toggle('menuRespActive');
 }
