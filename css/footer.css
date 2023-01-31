@@ -24,8 +24,7 @@
     font-size: 3rem;
     display: flex;
     gap: 2rem;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 .icons a{
     text-decoration: none;
