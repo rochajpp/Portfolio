@@ -38,12 +38,16 @@ header{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    transition: 0.5s;
 }
 .mainMenu{
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
+    
 }
-
+.mainMenu a:hover{
+    letter-spacing: 0.2rem;
+}
 .language button{
     border: none;
     background-color: transparent;
