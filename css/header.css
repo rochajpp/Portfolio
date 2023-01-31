@@ -73,7 +73,10 @@ header{
     right: 2rem;
     
 }
-
+.menuLanguage a{
+    text-decoration: none;
+    color: white;
+}
 .menuLanguage p{
     display: flex;
     align-items: center;
