@@ -8,6 +8,7 @@
 }
 .contentFooter h1{
     animation: animationNeon 2s infinite;
+    font-size: 1.9rem;
 }
 .contentFooter h1::before{
     content: "< ";
