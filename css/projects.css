@@ -81,7 +81,6 @@
 }
 .project{
     border: none;
-    width: 24rem;
     transition: 0.5s;
     display: flex;
     flex-direction: column;
@@ -89,7 +88,7 @@
    
 }
 .imageProject{
-    width: 24rem;   
+    width: 20rem;   
     height: 12rem;
 }
 
@@ -111,11 +110,13 @@
     transition: 0.5s;
     border-top: 2px solid rgb(255, 255, 255);
     border-bottom: 2px solid rgb(255, 255, 255);
+    width: 20rem;
 }
 .tecnologias{
     display: flex;
     gap: 2rem;
     padding: 0.5rem;
+    align-items: center;
 }
 .tecnologias h2{
     border: none;
