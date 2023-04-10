@@ -110,10 +110,10 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 5rem;
-    top: -10000rem;;
+    top: -100rem;;
     height: 100%;
     z-index: 100;
-    transition: 0.5s;
+    transition: 1s;
 }
 .menu2 a{
     text-decoration: none;
