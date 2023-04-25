@@ -99,9 +99,6 @@ header{
 }
 
 .menuRespActive .menu2{
-    top: 0;
-}
-.menu2{
     width: 100vw;
     background-color: var(--backgroundColor);
     position: absolute;
@@ -110,10 +107,14 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 5rem;
-    top: -100rem;;
     height: 100%;
     z-index: 100;
     transition: 1s;
+    top: 0;
+}
+.menu2{
+   display: none;
+    top: -100rem;
 }
 .menu2 a{
     text-decoration: none;
